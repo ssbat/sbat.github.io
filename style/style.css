@@ -46,6 +46,7 @@ body{
 .div-links li a:hover{
     background-color:blue;
     padding: .9em;
+    transition: 0.5s;
 }
 .main{
 background-color: #fffbff;
@@ -108,8 +109,7 @@ height: 200%;
     text-align: center;
     margin-bottom: .7em;
     color: #212a2c;
-    /* text-decoration: underline; */
-    /* padding-bottom: 5px; */
+
     
 }
 .div-blocks{
@@ -127,37 +127,84 @@ height: 200%;
     width: 60%;
     background-color: rgb(111, 168, 168);
 }
-.div-blocks div p{
-    /* font-size: 3vh;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 0px;
-    margin-bottom: 2px; */
-    /* width: 100%; */
-    /* display: block; */
-    /* width: fit-content; */
-    /* justify-items: center; */
-    /* align-self: center; */
-    /* margin:  0 auto; */
-    /* text-align: center; */
-    /* justify-: center; */
-    /* margin: auto auto; */
-    /* margin: 12% auto; */
-/*  */
-}
+
 
 .div-blocks div ul{
     padding: 0;
     list-style-type: none;
-    /* text-decoration: 0; */
-    /* padding-left: 20px;
-    text-align: left; */
 }
+
+
+
+
+
+.rows{
+    display: flex;
+    margin: 0 5em;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* margin: 0 auto; */
+}
+
+
+.row{
+    /* margin-left: 4vw; */
+    background-color: rgb(99, 170, 170);
+    border: 1px solid rgb(105, 100, 128);
+    border-radius: 2%;
+    padding-bottom: 2em;
+    margin: 0 1em;
+}
+.title-row{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 6vh;
+    text-align: center;
+    
+    color: #212a2c;
+    
+}
+.list-row{
+    padding-left: 7vw;
+}
+.element-list-row{
+    text-align: start;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4vh;
+
+    /* padding-left: 0vw; */
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+.column{
+    font-family:"Fjalla One";
+    margin: .4em;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgb(111, 168, 168);
+    border: 1px solid rgb(105, 100, 128);
+
+    width: 90%;
+    text-align: center;
+    border-radius: 4%;
+    padding: .8em;
+    
+}
+
+
+
+
+
+
+
 
 
 
 .body-contact{
     display: flex;
-    
     height: 30%;
 }
 
@@ -170,7 +217,7 @@ height: 200%;
 }
 .form-contact label{
 
-    color: white;
+    /* color: white; */
     margin-bottom: 3px;
 }
 
