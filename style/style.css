@@ -48,11 +48,8 @@ body{
     padding: .9em;
 }
 .main{
-    /* margin-top: 4em; */
-    /* color: black; */
-    /* text-align: center; */
-    /* margin: 4em 5em; */
-
+background-color: #fffbff;
+height: 200%;
 }
 
 .div-intro{
@@ -60,29 +57,26 @@ body{
     padding: 3em 3em 1em 3em;
     color: rgba(256, 256, 256, 0.7);
 }
-.span-question{
-    font-family: 'Anton', sans-serif;
+.mini-title{
     font-family: 'Lobster', cursive;
-    text-align: left;
     font-size: 2em;
+    
+}
+.span-question{
+    text-align: left;
 
 }
 .div-intro p{
-    /* width: 50%; */
-    /* min-width: 400px; */
-    /* text-align: justify; */
     text-align: center;
     font-size: 3.5vh;
     font-family: 'Lobster', cursive;
     height: fit-content;
     margin-bottom: 2em;
-    /* width: 10%; */
 }
 .img-me{
     display: block;
     width: 35vw;
     height: 70vh;
-    /* display: inline-block; */
     float: left;
     border-radius: 100%
 }
@@ -92,35 +86,52 @@ body{
 .div-blocks div ul{
     font-size: 2.5vh;
 }
-.div-abilities p{
+.skills-title{
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 3vh;
+    font-size: 3em;
+    text-decoration: underline;
 }
 .div-blocks{
     display: flex;
-    justify-content:space-between;
-    position: relative;
-    margin: 0 1em;
+    flex-wrap: wrap;
+    padding-bottom: 2vh;
+    /* justify-content:space-between; */
+    /* position: relative; */
+    /* margin: 0 1em; */
     
 }
-.div-blocks div{
-    display: flex;/*very important for margin auto*/
-    flex-direction: column;
-    /* text-align: center; */
-    width: 20vw;
-    height: 25vh;
-    outline:1px solid black ;
-
-    align-content: flex-start;
-    /* align-items: center; */
+.img-prog{
+    display: inline-block;
+    width: 10vw;
+}
+.ability-title{
+    text-align: center;
+    margin-bottom: .7em;
+    color: #212a2c;
+    /* text-decoration: underline; */
+    /* padding-bottom: 5px; */
+    
+}
+.div-blocks{
     /* margin: 0 auto; */
+    justify-content: center;
+    /* margin: 0 5em; */
+    
+ 
+}
+.skill-block{
+    border: 2px solid rgb(105, 100, 128);
+    /* padding: 1em; */
+    border-radius: 2%;
+    margin: 0 auto;
+    width: 60%;
+    background-color: rgb(111, 168, 168);
 }
 .div-blocks div p{
-    font-size: 3vh;
+    /* font-size: 3vh;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 0px;
-    margin-bottom: 2px;
+    margin-bottom: 2px; */
     /* width: 100%; */
     /* display: block; */
     /* width: fit-content; */
@@ -135,8 +146,11 @@ body{
 }
 
 .div-blocks div ul{
-    padding-left: 20px;
-    text-align: left;
+    padding: 0;
+    list-style-type: none;
+    /* text-decoration: 0; */
+    /* padding-left: 20px;
+    text-align: left; */
 }
 
 
